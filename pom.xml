@@ -1,13 +1,28 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
-  <modelVersion>4.0.0</modelVersion>
-  
-  <groupId>com.rajkumar</groupId>
-  <artifactId>security-01-may-2024</artifactId>
-  <version>1.0.0</version>
-  
-  <packaging>pom</packaging>
-  
-  <name>SecurityProject01May2024</name>
-  <description>Parent project to contain many</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rajkumar</groupId>
+    <artifactId>security-01-may-2024</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>SecurityProject01May2024</name>
+    <description>Parent project to contain many</description>
+
+    <modules>
+        <module>01-app-without-security</module>
+        <module>02-just-added-security</module>
+        <module>03-personal-credentials</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
 </project>

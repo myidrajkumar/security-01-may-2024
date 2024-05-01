@@ -6,15 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.5</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <groupId>com.rajkumar</groupId>
+        <artifactId>security-01-may-2024</artifactId>
+        <version>1.0.0</version>
     </parent>
     
-    <groupId>com.rajkumar</groupId>
     <artifactId>02-just-added-security</artifactId>
-    <version>1.0.0</version>
     
     <name>02-just-added-security</name>
     <description>Simple SpringBoot application with security</description>

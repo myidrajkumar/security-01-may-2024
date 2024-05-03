@@ -1,3 +1,7 @@
 spring:
   application:
     name: 04-bank-application
+  security:
+    user:
+      name: user
+      password: password

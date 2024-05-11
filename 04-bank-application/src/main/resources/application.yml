@@ -1,3 +1,11 @@
 spring:
   application:
     name: 04-bank-application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bankingdb
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      format-sql: true
